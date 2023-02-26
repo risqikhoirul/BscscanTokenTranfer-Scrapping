@@ -28,7 +28,6 @@ const functionBscAddress = (address) =>
           const [hide, TxnHash, timestamp, age, from, outin, to, value, tokenName] = resChe;
           for (let i = 1; i < hide.length; i++) {
             message.push({
-              success: true,
               TxnHash: TxnHash[i],
               timestamp: timestamp[i],
               age: age[i],
