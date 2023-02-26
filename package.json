@@ -1,0 +1,16 @@
+{
+  "name": "bscscantokentransfer",
+  "version": "1.0.0",
+  "description": "BscScan Token Transfer Scrapping",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "M Khoirul Risqi",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "cheerio-tableparser": "^1.0.1"
+  }
+}
